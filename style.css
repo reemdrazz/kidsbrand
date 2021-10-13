@@ -1,0 +1,217 @@
+body{
+    background-color:   #EFEDEE;
+    font-family: Georgia, serif;
+}
+
+.head{
+    background:#506D84;
+    height: 30px;
+}
+
+
+.im{
+    height: 500px;
+}
+/* start navbar */
+
+.logobrand{
+    height: 50px;
+  
+}
+.nav-item a{
+    color:#506D84 ;
+}
+.fontawnavbar{
+    width: 30px;
+    font-size: 20px;
+    color:#506D84 ;
+
+    text-align: center;
+    margin: 10px;
+   
+
+    
+}
+.form-inline .formsearch{
+    width: 500px;
+}
+.butonsearch{
+    margin: 5px;
+    margin-left: -10px;
+    background-color: #506D84;
+    
+    color:#EFEDEE;
+    }
+
+
+  
+                         /* end  navbar */
+
+
+
+                          /*start cateogory */
+
+.clothescateogory img{
+    width: 200px;
+    height: 200px;
+}
+
+.clothesstaff{
+    width: 130px;
+    height: 40px;
+    padding: 5px;
+    margin: 8px;
+    background-color: #506D84;
+    color:#EFEDEE;
+}
+
+                                  /*end cateogory */
+
+
+                                /* start section  sale 10% */
+
+
+.sale {
+
+    background-image: url('./images/p222.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    filter: blur(2px);
+
+
+}
+h1{
+    color:#506D84;
+    font-family: serif;
+}
+.sale10{
+    background-color:  white ;
+    width: 600px;
+    height: 300px;
+    opacity: .8;
+    margin-left: 200px;
+    position: absolute;
+margin-top: -400px;
+    text-align: center;
+    font-size: 60px;
+    border-radius :10px;
+  
+}
+
+
+                                 /* end section  sale 10% */
+
+/*   start first side */
+
+
+.rightside
+{
+    width: 500px;
+    height: 500px;
+    margin-left: 80px;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 8%;
+}
+.design1{
+    padding: 30px;
+    margin-top: 180px;
+}
+.btndesign{
+    background-color: #506D84;
+    border-radius: 30px;
+    width: 190px;
+    color: #EFEDEE;
+    font-size: 28px;
+}
+/*   end first side */
+
+/*   start second side */
+.leftside{
+    
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.design2{
+
+    margin-top: 120px;
+    margin-left: 10px;
+    
+}
+.second{
+  margin-top: 100px;
+}
+.btndesign{
+    background-color: #506D84;
+    border-radius: 30px;
+    width: 190px;
+    color: #EFEDEE;
+    font-size: 28px;
+}
+
+
+/*   end second side */
+
+.grad{
+
+    margin-top: 70px;
+    /* background: linear-gradient(135deg, #BCECDC 30%, #FFCBD8); */
+}
+
+/*  start section About */
+
+.about i {
+  background-color:#506D84; 
+  width: 50px;
+  height: 50px;
+  font-size: 45px;
+  text-align: center;
+  color: #EFEDEE;
+  border-radius: 50%;
+  
+  
+
+}
+/*  end section About */
+
+/*  start request side */
+
+.request{
+    height: 200px;
+    background-color:#506D84;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+.requestbtn{
+    width: 350px;
+    height: 50px;
+    background-color: #EFEDEE;
+    margin-top: 50px;
+    font-size: 30px;
+   padding-bottom: 50px;
+    color: #4e555b;
+}
+.request h2{
+    margin-top: 40px ;
+}
+/*  end request side */
+.up{
+    position: fixed;
+    bottom: 10px;
+  right: -60x;
+  
+    color: #506D84;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.up.show{
+  right: 10px;
+
+}
